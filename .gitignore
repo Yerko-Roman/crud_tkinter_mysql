@@ -1,0 +1,17 @@
+.env/
+
+*.pyc
+__pycache__/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# Ignorar archivos de metadatos de macOS
+/.DS_Store
+/*._*
+Thumbs.db

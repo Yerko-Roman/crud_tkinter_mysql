@@ -7,7 +7,7 @@ id_comuna = 1
 conexion = mysql.connector.connect(user = "", 
                                    password = "",
                                    host = "",
-                                   database = "usuario",
+                                   database = "",
                                    port = "")
 
 datos = open("regiones-provincias-comunas.json")

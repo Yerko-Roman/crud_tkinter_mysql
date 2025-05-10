@@ -5,7 +5,7 @@ class Conexion_mysql:
     def __init__(self) -> None:
         self.conexion = connector.connect(user = "", 
                                           password = "",
-                                          host = "localhost",
+                                          host = "",
                                           database = "",
                                           port = "")
     
